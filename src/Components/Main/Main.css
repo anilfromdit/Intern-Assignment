@@ -1,0 +1,38 @@
+.body{
+    display: flex;
+    padding-bottom: 10vmax;
+
+}
+.mainWrapper{
+    width: 55vw;
+    padding: 10px 5px;
+}
+.categories {
+    display: flex;
+    margin: 1vmax;
+    padding-right: 2vmax;
+}
+
+
+.categories button {
+    padding: 6px 16px;
+
+    height: 30px;
+border:none;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+}
+
+.categories :first-child{
+    background: #FFD893;
+}
+
+.categories :last-child{
+    margin-left: auto;
+}
+.stories{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

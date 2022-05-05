@@ -1,0 +1,50 @@
+.leftAside{
+   width: 23vw;
+}
+.upperPart{
+   padding-top:3.5vmax ;
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 1vmax;
+}
+.lowerPart{
+   padding-top:1.5vmax ;
+   display: flex;
+   flex-direction: column;
+}
+.upperPart div,
+.lowerPart div{
+   margin: 0.2vmax 0;
+}
+
+.leftAside div a{
+color: #2A373F;
+text-decoration: none;
+
+}
+.leftAside span{
+   display: inline-block;
+   font-weight: 400;
+   transform: translateY(-100%);
+   font-size: 15px;
+}
+.leftAside svg{
+   height: 23px;
+   width: 23px;
+   margin-left: 1vmax;
+   padding: 10px;
+}
+
+.leftAside .upperPart .selectedOne
+{
+   background: #F5F5FE;
+   border-radius: 0px 37px 37px 0px;
+}
+.leftAside .upperPart .selectedOne a{
+   color: var(--primaryColor100);
+   font-weight: 900;
+}
+.divider{
+   width: 70%;
+   height: 1px;
+}
